@@ -4,9 +4,9 @@ This is a C prompt program that allows users to build and save playlists with sp
 The user's playlists are saved inside /users/username and can be opened for visualization and to add more songs!
 The program has 4 navigation states:
 
-START: user enter his id and choose to create a new playlist or manipulate his saved playlists
+START: user enter his id and choose to create a new playlist or to manipulate his saved playlists
 
-CREATE: user create a new playlist 
+CREATE: user creates a new playlist 
 
 ADD: user can search for tracks in the spotify database and add to his playlist.
 
