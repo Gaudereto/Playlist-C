@@ -1,5 +1,5 @@
 # Playlist-C
-This is a C prompt program that allows users to build and save playlists from spotify tracks
+This is a C prompt program that allows users to build and save playlists with spotify tracks
 
 The user's playlists are saved inside /users/username and can be opened for visualization and to add more songs!
 The program has 4 navigation states:
