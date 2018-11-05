@@ -328,7 +328,7 @@ int main(void)
         trackRequest.body = "";
         trackRequest.header = searchHeader;
 
-        // Get track from spotidycaralh
+        // Get track info from spotify:
         spotAnswer = letsNetwork(trackRequest.url,trackRequest.method,trackRequest.body,trackRequest.header);
         struct TrackInfo *track = getTrackInfo(spotAnswer);
         if(track->title==NULL)
@@ -367,7 +367,7 @@ int main(void)
         else if(option=='m'){state=MANIPULATE;memset(playlistPath,0,strlen(playlistPath));}
         else {printf("option invalid\n");}
     break;
-
+    // Playlist visualization state: 	
     case MANIPULATE:;
         // Open the user directory
         dir = opendir(usersFolder);
