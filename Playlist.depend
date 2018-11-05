@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1541391328 source:c:\users\guilherme\google drive\trainee\stone_project\playlist\main.c
+	<stdio.h>
+	<stdlib.h>
+	<curl.h>
+	<string.h>
+	<jsmn.h>
+	<dirent.h>
+
+1536108518 c:\users\guilherme\google drive\trainee\stone_project\playlist\libs\curl\curl.h
+	"curlver.h"
+	"system.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1536140880 c:\users\guilherme\google drive\trainee\stone_project\playlist\libs\curl\curlver.h
+
+1535375774 c:\users\guilherme\google drive\trainee\stone_project\playlist\libs\curl\system.h
+	<winsock2.h>
+	<windows.h>
+	<ws2tcpip.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/poll.h>
+
+1512268400 c:\users\guilherme\google drive\trainee\stone_project\playlist\libs\curl\easy.h
+
+1529001084 c:\users\guilherme\google drive\trainee\stone_project\playlist\libs\curl\multi.h
+	"curl.h"
+
+1536108518 c:\users\guilherme\google drive\trainee\stone_project\playlist\libs\curl\typecheck-gcc.h
+
+1538459168 c:\users\guilherme\google drive\trainee\stone_project\playlist\libs\jsmn\jsmn.h
+	<stddef.h>
+
