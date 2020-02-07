@@ -239,7 +239,7 @@ int main(void)
   tokenRequest.url = "https://accounts.spotify.com/api/token";
   tokenRequest.method = "POST";
   tokenRequest.body = "grant_type=client_credentials";
-  tokenRequest.header = "Authorization: Basic NzVjYWQ1ZWFlNGYwNDQ1NDg5MDcxMzIxZjU4MDM5MDE6ZTliMTJkMzU1MzUyNGE2ZmFhZWJjOWNmNDU2Mjg1ZWQ=";
+  tokenRequest.header = "Authorization: Basic Input the user authorization token";
 
   // Get the access token from spotify API:
   char *spotAnswer = letsNetwork(tokenRequest.url,tokenRequest.method,tokenRequest.body,tokenRequest.header);
