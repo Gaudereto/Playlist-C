@@ -6,7 +6,7 @@
 #include <jsmn.h>
 #include <dirent.h>
 
-// Navigation states:
+/// Navigation states:
 enum states {
   START,
   CREATE,
